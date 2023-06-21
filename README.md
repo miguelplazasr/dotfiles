@@ -19,7 +19,8 @@ This repository contains the following configuration files:
 .vimrc: Contains configurations for the Vim text editor.
 .gitconfig: Contains configurations for Git.
 (Include other files as necessary)
-Disclaimer
+
+## Disclaimer
 These configurations are provided as-is and may need to be modified to suit your specific needs. Always review and understand the settings before applying them to your environment.
 
 ## Contributions
