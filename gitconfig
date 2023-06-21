@@ -1,0 +1,20 @@
+[user]
+	name = your name
+	email = youremail@example.com
+	signingkey = ABC1234DEF456
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	ci = commit
+        fr = "!f() { git fetch && git rebase origin/"$1"; }; f"
+	dbr = "!f() { git branch -D "$1"; }; f"
+	tag = "!f() {git describe --tags `git rev-list --tags --max-count=1`}; f"
+	
+	## gitflow custom aliases
+	ffs = "!f() { git flow feature start [REPLACE THIS KEY]-"$1"; }; f"
+	ffp = "!f() { git flow feature publish $(git rev-parse --abbrev-ref HEAD | sed 's/^feature\\///'); }; f"
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
