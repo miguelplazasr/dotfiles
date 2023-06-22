@@ -19,6 +19,7 @@
 	## gitflow custom aliases
 	ffs = "!f() { git flow feature start [REPLACE THIS KEY]-"$1"; }; f"
 	ffp = "!f() { git flow feature publish $(git rev-parse --abbrev-ref HEAD | sed 's/^feature\\///'); }; f"
+	fff = "!f() { git flow feature finish [REPLACE THIS KEY]-"$1"; }; f"
 
 [color]
 	# Use colors in Git commands that are capable of colored output when
