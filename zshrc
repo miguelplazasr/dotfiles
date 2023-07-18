@@ -145,3 +145,9 @@ alias python=/usr/bin/python3
 alias pip=/usr/bin/pip3
 alias dotenv='/Users/miguelplazasr/Library/Python/3.7/bin/dotenv'
 
+# Switch Node via alias
+
+alias node20='export PATH="/opt/homebrew/opt/node@20/bin:$PATH"'
+alias node16='export PATH="/opt/homebrew/opt/node@16/bin:$PATH"'
+alias node14='export PATH="/opt/homebrew/opt/node@14/bin:$PATH"'
+
